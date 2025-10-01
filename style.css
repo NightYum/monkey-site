@@ -10,12 +10,16 @@ body {
 }
 
 nav {
-    margin-top: 10px;
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: 60vw;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
+    background-color: black;
 }
 
 a {
@@ -45,6 +49,9 @@ a:hover::after {
     width: 60vw;
     row-gap: 50px;
     margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 img {
@@ -68,6 +75,13 @@ img::after {
 }
 h1 {
     color: white;
+    margin-left: 20px;
+}
+.container-favorite-text {
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    max-width: 60vw;
 }
 footer {
     width: 60vw;
