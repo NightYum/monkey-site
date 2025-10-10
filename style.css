@@ -1,3 +1,4 @@
+/* main */
 body {
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -77,12 +78,6 @@ h1 {
     color: white;
     margin-left: 20px;
 }
-.container-favorite-text {
-    display: flex;
-    justify-content: space-between;
-    width: 60vw;
-    max-width: 60vw;
-}
 footer {
     width: 60vw;
     display: flex;
@@ -102,6 +97,7 @@ hr {
 }
 
 /* account.html */
+/* account-info-settings */
 main {
 }
 .container-account-info-settings {
@@ -125,6 +121,14 @@ main {
     align-items: end;
     gap: 5px; 
 }
+/* favorite-monkey */
+.container-favorite-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60vw;
+    max-width: 60vw;
+}
 .container-favorite-monkey {
     margin-top: 10px;
     background-color: gray;
@@ -136,4 +140,20 @@ main {
 }
 p {
     color: white;
+}
+.btn-clear-favorite {
+    margin-right: 20px;
+    color: white;
+}
+
+
+/* test */
+#draggableBox {
+  position: absolute; /* Или position: fixed */
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  cursor: grab; /* Курсор, указывающий на возможность перетаскивания */
+  top: 10px; /* Начальная позиция по оси Y */
+  left: 10px; /* Начальная позиция по оси X */
 }
